@@ -1,0 +1,21 @@
+SMART COMPLAINT REGISTRATION SYSTEM v3 - HOW TO RUN
+====================================================
+
+YOU NEED: Node.js LTS (https://nodejs.org) and VS Code. MongoDB is NOT required.
+
+EASIEST (Windows): double-click  START-WINDOWS.bat
+
+OR IN VS CODE:
+ 1. File > Open Folder... > choose THIS folder (the one with package.json in it)
+ 2. Terminal > New Terminal
+ 3. Type:   npm run setup      (first time only, needs internet, 2-4 minutes)
+ 4. Type:   npm run dev
+ 5. Open Chrome:  http://localhost:5173
+
+LOGINS (one-click buttons on the login page):
+ Citizen    citizen@demo.com / citizen123
+ Authority  admin@scrs.in    / admin123
+ Worker     ravi@scrs.in     / worker123
+
+STOP: press Ctrl+C in the terminal.   NEXT TIME: just  npm run dev
+If something is wrong, "npm run dev" prints what to fix. More help: README.md
